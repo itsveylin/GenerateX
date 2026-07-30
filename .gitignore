@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated certificate files and uploaded templates
+storage/generated/*
+storage/templates/*
+!storage/generated/.gitkeep
+!storage/templates/.gitkeep
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
